@@ -1,0 +1,43 @@
+h1 {
+    color: aqua
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    color: blue;
+    border-color: blue;
+}
+
+.inicio {
+    color: sandybrown;
+    background-color: slategray;
+}
+
+input {
+    background-color: yellow;
+    width: 120px;
+    height: 40px;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+}
+
+.caja {
+    border-color: black;
+    border: 1px;
+    background-color: orange;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.fototarjeta {
+    width: 300px;
+    height: 300px;
+}
+

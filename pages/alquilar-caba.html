@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alquilarcaba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="../css/style.css">!-->
+</head>
+
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../lahnlogobordo.jpg" height="60px" width="100px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                COMPRAR
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Capital Federal</a></li>
+                                <li><a class="dropdown-item" href="#">GBA Norte</a></li>
+                                <li><a class="dropdown-item" href="#">GBA Sur</a></li>
+                                <li><a class="dropdown-item" href="#">GBA Oeste</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ALQUILAR
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Capital Federal</a></li>
+                                <li><a class="dropdown-item" href="#">GBA Norte</a></li>
+                                <li><a class="dropdown-item" href="#">GBA Sur</a></li>
+                                <li><a class="dropdown-item" href="#">GBA Oeste</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                EMPRENDIMIENTOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">+ Info</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <div class="m-1">
+                            <button class="btn btn-outline-success" type="submit">PUBLICAR</button>
+                        </div>
+
+                        <div class="m-1">
+                            <button class="btn btn-outline-success" type="submit">INICIO</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+        <div>
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Ingresa ubicaciones"
+                            aria-label="Text input with dropdown button">
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="true" aria-expanded="false">
+                                Alquilar
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Comprar</a></li>
+                                <li><a class="dropdown-item" href="#">Temporal</a></li>
+                                <li><a class="dropdown-item" href="#">Emprendimientos</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="inside" aria-expanded="false">
+                                Casa
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Departamento</a></li>
+                                <li><a class="dropdown-item" href="#">Ph</a></li>
+                                <li><a class="dropdown-item" href="#">Local comercial</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">
+                                Monoambiente
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">2 ambientes</a></li>
+                                <li><a class="dropdown-item" href="#">3 ambientes</a></li>
+                                <li><a class="dropdown-item" href="#">4 ambientes o más</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="false" aria-expanded="false">
+                                Pesos
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">USD</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <button class="btn btn-primary" type="submit">GUARDAR BUSQUEDA</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card mt-2 mb-2">
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h5>10000 Casas en alquiler en Argentina</h5>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Avisos contactados</p>
+
+                                </div>
+                                <div class="col">
+                                    <p>Favoritos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="btn-group">
+                                <div class="col m-1">
+                                    <button class="btn btn-primary" type="submit">MAPA</button>
+                                </div>
+    
+                                <div class="col m-1">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Relevantes
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Avisos mas vistos</a></li>
+                                            <li><a class="dropdown-item" href="#">Baratos</a></li>
+                                            <li><a class="dropdown-item" href="#">Recien publicados</a></li>
+                                            <li><a class="dropdown-item" href="#">Caros</a></li>
+                                            <li><a class="dropdown-item" href="#">Mas nuevos</a></li>
+                                            <li><a class="dropdown-item" href="#">Mas antiguos</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <a href="../pages/detalle-tarjeta.html">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/alquilar-caba/a/depto-a-1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">USD 107.000</h5>
+                            <p>$10.000 Expensas</p>
+                            <p class="card-text">Tucuman al 2200</p>
+                            <p class="card-text">Balvanera, Capital Federal</p>
+                            <p class="card-text">77m2 total 71m2 cubierta 3 ambientes 2
+                                dormitorios 1 baño</p>
+                            <p class="card-text"><small class="text-body-secondary">Alquiler sin muebles -reciclado
+                                    cocina Y baños modernos pintado A nuevo impecable . Sobre Teodoro García a
+                                    metros de
+                                    Luis María campos!!</small></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="../pages/detalle-tarjeta.html">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/alquilar-caba/a/depto-a-1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">USD 107.000</h5>
+                            <p>$10.000 Expensas</p>
+                            <p class="card-text">Tucuman al 2200</p>
+                            <p class="card-text">Balvanera, Capital Federal</p>
+                            <p class="card-text">77m2 total 71m2 cubierta 3 ambientes 2
+                                dormitorios 1 baño</p>
+                            <p class="card-text"><small class="text-body-secondary">Alquiler sin muebles -reciclado
+                                    cocina Y baños modernos pintado A nuevo impecable . Sobre Teodoro García a
+                                    metros de
+                                    Luis María campos!!</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="../pages/detalle-tarjeta.html">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/alquilar-caba/a/depto-a-1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">USD 107.000</h5>
+                            <p>$10.000 Expensas</p>
+                            <p class="card-text">Tucuman al 2200</p>
+                            <p class="card-text">Balvanera, Capital Federal</p>
+                            <p class="card-text">77m2 total 71m2 cubierta 3 ambientes 2
+                                dormitorios 1 baño</p>
+                            <p class="card-text"><small class="text-body-secondary">Alquiler sin muebles -reciclado
+                                    cocina Y baños modernos pintado A nuevo impecable . Sobre Teodoro García a
+                                    metros de
+                                    Luis María campos!!</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="../pages/detalle-tarjeta.html">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/alquilar-caba/a/depto-a-1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">USD 107.000</h5>
+                            <p>$10.000 Expensas</p>
+                            <p class="card-text">Tucuman al 2200</p>
+                            <p class="card-text">Balvanera, Capital Federal</p>
+                            <p class="card-text">77m2 total 71m2 cubierta 3 ambientes 2
+                                dormitorios 1 baño</p>
+                            <p class="card-text"><small class="text-body-secondary">Alquiler sin muebles -reciclado
+                                    cocina Y baños modernos pintado A nuevo impecable . Sobre Teodoro García a
+                                    metros de
+                                    Luis María campos!!</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+
+<div class="container">
+
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Mas LAHN</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inmuebles en Argentina</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Publicar tu inmueble</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ayuda</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Publicidad</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Garantias de alquiler</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Anunciantes</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inmobiliarias</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Corredores</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Constructores</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Contacto</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">info@lahnpropiedades.com</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">direccion</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">1234 4567</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">iconos de redes sociales</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+
+</html>
